@@ -10,9 +10,9 @@ in your puppet-node:
 
 For the client-node you have to write the following:
 
-`collectd::plugin::network::client { "network-client":
+``collectd::plugin::network::client { "network-client":
 	collectd_server_address     => ["IP.OF.YOUR.COLLECTDSERVER"],
-}`
+}``
 
 If you want to use one of the plugins, that are not mentioned in the server-/client-node,
 you have to load the class of the plugin in the puppet-node:
