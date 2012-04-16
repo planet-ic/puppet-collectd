@@ -10,7 +10,7 @@ in your puppet-node:
 
 For the client-node you have to write the following:
 
-`` collectd::plugin::network::client `` { "network-client":
+`collectd::plugin::network::client` { "network-client":
 	collectd_server_address     => ["IP.OF.YOUR.COLLECTDSERVER"],
 }
 
