@@ -11,7 +11,7 @@ in your puppet-node::
 For the client-node you have to write the following::
 
     collectd::plugin::network::client { "network-client":
-        collectd_server_address    => ["IP.OF.YOUR.COLLECTDSERVER"],	
+        server_ip    => ["IP.OF.YOUR.COLLECTDSERVER"],	
     }	
 
 If you want to use one of the plugins, that are not mentioned in the server-/client-node,
